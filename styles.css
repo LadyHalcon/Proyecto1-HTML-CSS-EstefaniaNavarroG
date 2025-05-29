@@ -1,15 +1,15 @@
 h1 {
-    font-family: fantasy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    background-color: #3f5b37;
+  background-color: #59C173;
   margin: 0;
   font-family: sans-serif;
 }
 
 .navbar {
-  background-color: #3f5b37;
+  background-color: #a17fe0;
   color: white;
   display: flex;
   justify-content: space-between;

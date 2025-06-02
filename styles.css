@@ -1,12 +1,20 @@
 h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Chicle", serif;
 }
 
 body {
-  background-color: #59C173;
+  background-color: #a17fe0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Bodoni Moda", serif;
 }
+
+p{
+  margin: 0;
+}
+
+
+
+/*-----------BARRA DE NAVEGACIÓN-----------*/
 
 .navbar {
   background-color: #a17fe0;
@@ -14,15 +22,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 15px 20px;
 }
 
 .logo {
+  font-family: "Chicle", serif;
   font-size: 1.5em;
   font-weight: bold;
+  color: white;
+
 }
 
 .nav-links {
+  align-items: center;
   list-style: none;
   display: flex;
   gap: 20px;
@@ -38,4 +50,47 @@ body {
 
 .nav-links a:hover {
   color: #ffcc00;
+}
+
+.boton{
+  background-color:  #FFA552;
+  border: none;
+  border-radius: 25%;
+  padding: 15px;
+  
+
+}
+
+/*-----------FIN BARRA DE NAVEGACIÓN-----------*/
+
+#portada{
+  background-color: #a17fe0;
+  height: 500px;
+}
+
+#foto-portada{
+  position: absolute;
+  height: 350px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.titulo{
+ position: absolute;
+ margin-left: 250px;
+ font-size: 70px;
+ font-family: "Chicle", serif;
+
+}
+
+h1{
+  margin: 0;
+
+}
+
+.titulo-p{
+ font-size: 105px;
+ font-weight: bold;
+
 }

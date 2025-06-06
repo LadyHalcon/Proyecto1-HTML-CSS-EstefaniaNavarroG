@@ -1,92 +1,49 @@
-h1 {
-  font-family: "Chicle", serif;
-}
-
 body {
-  background-color: #a17fe0;
   margin: 0;
-  font-family: "Bodoni Moda", serif;
+  padding-top: 0;
 }
 
-p {
+.primera-seccion {
+  /* margin: 0;
+  padding: 0; */
+  background: #a17fe0;
+  background: linear-gradient(
+    180deg,
+    rgba(161, 127, 224, 1) 0%,
+    rgba(250, 244, 230, 1) 100%
+  );
+}
+
+.main-menu {
+  padding: 0.5em 2em 0 2em;
   margin: 0;
-}
-
-/*-----------BARRA DE NAVEGACIÓN-----------*/
-
-.navbar {
-  background-color: #a17fe0;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.9375rem 1.25rem;
-}
-
-.logo {
-  font-family: "Chicle", serif;
+  font-family: "Glass Antiqua", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-size: 2em;
-  font-weight: 300;
-  color: white;
-}
-
-.nav-links {
-  align-items: center;
+  font-style: italic;
   list-style: none;
   display: flex;
-  gap: 1.25rem;
-  padding: 0;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #ffcc00;
-}
-
-.boton {
-  background-color: #ffa552;
-  border: none;
-  border-radius: 1.5rem 1.5rem 1.5rem 0;
-  padding: 0.9375rem;
-}
-
-/*-----------FIN BARRA DE NAVEGACIÓN-----------*/
-
-.imagen-portada{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.portada {
-  background-color: #a17fe0;
-  height: 31.25rem;
-}
-
-.foto-portada {
-  max-width: 350px;
-  height: auto;
-  /* height: 21.875rem;
-  width: 18.75rem; */
-
-}
-
-.titulo {
-  margin-left: 15.625rem;
-  font-size: 4.375rem;
-  font-family: "Chicle", serif;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0;
+  padding: 0;
+  font-family: "Glass Antiqua", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  font-style: italic;
+  color: aliceblue;
 }
 
-.titulo-p {
-  font-size: 6.5625rem;
-  font-weight: bold;
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.cuerpo-central{
+    max-width: 900px;
 }
